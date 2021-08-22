@@ -1,0 +1,144 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Roboto';
+	background-color: #555;
+	line-height: 1.5em;
+}
+a{
+	text-decoration: none;
+	color: #ccc;
+}
+.main-container{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.site-header{
+	border-top: 3px solid #ED2025;
+	display: flex;
+	width: 100%;
+	height: 5rem;
+	background: rgba(0,0,0,.85);
+	position: sticky;
+	top: 0;
+	z-index: 9999;
+}
+.menu-container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+.logo {
+    flex-basis: 10%;
+}
+nav.nav-menu {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.mobile-menu{
+	color: #fff;
+	font-size: 20px;
+	font-weight: 900;
+	display: none;
+}
+.nav-menu ul{
+	display: flex;
+}
+.nav-menu ul li{
+	list-style: none;
+}
+.nav-menu ul li a{
+	padding: 10px 0px;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	font-weight: normal;
+	font-size: 14px;
+	margin: 0 20px;
+}
+.text{
+	font-size: 20px;
+	text-transform: uppercase;
+	padding-left: 10px;
+}
+.banner{
+	width: 100%;
+	height: 500px;
+	position: relative;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5));
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.banner{
+	display: flex;
+	flex-direction: column;
+}
+.banner .caption{
+	margin-top: 20px;
+	font-size: 18px;
+	color: #fff;
+	letter-spacing: 1.5px;
+	font-family: 'Oswald', sans-serif;
+ 	font-size: 18px;
+}
+.banner:before{
+	content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 148px;
+	background: url(./images/header-overlay-ie.png) center center no-repeat;
+}
+.inner-banner-content.addsize{
+	text-align: center;
+}
+.inner-banner-content:before{
+	content: '[';
+	color: #ED2025;
+	font-size: 100px;
+}
+.inner-banner-content:after{
+	content: ']';
+	color: #ED2025;
+	font-size: 100px;
+}
+.banner-cont{
+	font-size: 100px;
+	color: #fff;
+	margin-top: -10px;
+}
+.logo a span {
+    font-size: 36px;
+    font-family: 'Open Sans', sans-serif;
+}
+.logo .bracket{
+	color: #ED2025;
+}
+.inner-body{
+	height: 100vh;
+	width: 100%;
+}
+.inner-body{
+	background-color: #fff;
+}
+.footer-holder{
+	height: 500px;
+	background-color: #000000;
+	background-image: linear-gradient(360deg, #000000 74%, #ffffff 74%);
+	display: flex;
+	justify-content: center;
+	border-bottom: 3px solid #ED2025;
+}
+ .footer{
+ 	width: 100%;
+ 	height: 350px;
+ 	background-size: contain;
+ 	background-position: center;
+ }

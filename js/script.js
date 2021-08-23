@@ -19,10 +19,12 @@ function addClass(){
 }
 setTimeout(addClass() , 50);
 
-var toggler = document.getElementById('toggler');
+// var toggler = document.getElementById('toggler');
 
 toggler.addEventListener('click', function(){
-	document.querySelector('.nav-menu').style.display = 'flex';
+	document.getElementById('close-toggler').style.display = 'block';
+	var menu = document.querySelector('.nav-menu');
+	menu.style.display = 'flex';
 	document.querySelector('#toggler').style.display = 'none';
 });
 

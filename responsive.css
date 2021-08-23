@@ -52,7 +52,9 @@
 		margin: 10px auto;
 	}
 	.nav-menu li a{
+		font-size: 15px !important;
 		line-height: 60px;
+		font-weight: 900 !important;
 	}
 	.nav-menu li.bg{
 		height: 60px;
@@ -60,18 +62,24 @@
 		background-position: center;
 	}
 	.nav-menu li.bg-1{
-		background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9) ), url('./images/mobile-link-bg1.jpg');
+		background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('./images/mobile-link-bg1.jpg');
 	}
 	.nav-menu li.bg-2{
-		background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9) ), url('./images/mobile-link-bg2.jpg');
+		background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('./images/mobile-link-bg2.jpg');
 	}
 	.nav-menu li.bg-3{
-		background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9) ), url('./images/mobile-link-bg3.jpg');
+		background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('./images/mobile-link-bg3.jpg');
 	}
 	.nav-menu li.bg-4{
-		background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9) ), url('./images/mobile-link-bg4.jpg');
+		background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('./images/mobile-link-bg4.jpg');
 	}
 	#check:checked + .mobile-view{
   		display: block;
+	}
+}
+
+@media (max-width: 480px){
+	ul.nav-links li{
+		width: 100%;
 	}
 }

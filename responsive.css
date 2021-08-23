@@ -47,8 +47,29 @@
 		text-align: center;
 		margin-top: 100px;
 	}
+	ul.nav-links li{
+		width: 60%;
+		margin: 10px auto;
+	}
 	.nav-menu li a{
 		line-height: 60px;
+	}
+	.nav-menu li.bg{
+		height: 60px;
+		background-size: contain;
+		background-position: center;
+	}
+	.nav-menu li.bg-1{
+		background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9) ), url('./images/mobile-link-bg1.jpg');
+	}
+	.nav-menu li.bg-2{
+		background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9) ), url('./images/mobile-link-bg2.jpg');
+	}
+	.nav-menu li.bg-3{
+		background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9) ), url('./images/mobile-link-bg3.jpg');
+	}
+	.nav-menu li.bg-4{
+		background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9) ), url('./images/mobile-link-bg4.jpg');
 	}
 	#check:checked + .mobile-view{
   		display: block;
